@@ -1,0 +1,25 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 35%;
+  margin-right: 20px;
+}
+.user-component__tittle {
+  font-weight: 600;
+  font-size: 20px;
+}
+.user-component__subttle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
