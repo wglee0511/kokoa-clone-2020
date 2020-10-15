@@ -19,7 +19,7 @@
 }
 .user-component__subttle {
   margin-top: 8px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--font-gray);
   font-size: 17px;
 }
 
@@ -35,7 +35,7 @@
   font-weight: 400;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-gray);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
