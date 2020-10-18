@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - Kokoa clone</title>
+    <title>Settings - Kokoa clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,7 +24,8 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="fas fa-angle-left fa-x2"></i>
+        <a href="more.html">
+        <i class="fas fa-angle-left fa-3x"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__tittle">Settings</h1>
@@ -39,13 +40,19 @@
     <main class="main-screen">
       <ul class="settings-list">
         <li class="settings__setting">
-          <i class="fas fa-bullhorn"></i><span>Notices</span>
+          <div class="settings__setting-column">
+          <i class="fas fa-bullhorn"></i><span>Notices</span></div>
+          <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-flask"></i><span>Kokoa Lab</span>
+          <div class="settings__setting-column">
+          <i class="fas fa-flask"></i><span>Kokoa Lab</span></div>
+          <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-info-circle"></i><span>Version</span>
+          <div class="settings__setting-column">
+          <i class="fas fa-info-circle"></i><span>Version</span></div>
+          <div class="settings__setting-column">Lastest</div>
         </li>
       </ul>
     </main>
